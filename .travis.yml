@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+node_js:
+  - '4'
+  - '6'
+cache:
+  directories:
+    - node_modules
+deploy:
+  provider: npm
+  email: sysadmin@grabone.co.nz
+  api_key:
+    secure: O9NUEuivApwQEHC+OXO2rn1cDev8QV7KeZMPsHc1stAUQAYfsrZOE1W/VlQGaRpW3TZUDNpOmOsMM+zSIdr04bcmiF/e4coVAiDTPcxKn1scX2O8wTI7u/vHHdu3OvCafPDXB+3X3+d9LCJPAHPceHXDiS6y38Znw88Jyt3ry7/GJQRM1F3+NG4fArwknA5Odd1fXulHPRYpDxtPteKxAM2T9Lntxm74VXN87zrrvNt2eXBnYULvIIdYZZBdpyjEmeS+j7gosx3vB3PXq87u5gQT1ozLFq6+gYEQ6Td03yDeqxlUsxdP4/OAd5sZbDAr6AbNxl6FNdC7R+aLq7GzJeA62WhN5E89KrAZHkkxbEDY4tJulZ2KsotWc6N4s2y9rwhPn8eI2RjJoj3N86CqaPPV9C4IJELmVCgi5+9LlMY+hwK6gXXalZw1nwHNV9hOHfQPJAkY9P2E9ANBDrammzZ8KUUNLWOG4jgDOO1RwdQpbr6MyrF2CPodUXqLnq8KWSEOroeB000vBsoc63/OuALq9A2x87VwAtWKVpvBYwWtka3LrzunqFCE3GyNd4IB+Hbqk3SlY7uaeakcE/tMzLaMm8YB+fuCDIgWZ6Ri4TOP2aLXOLN4N4bhb+Cbd4Cz0euvk4UJsgyfiBNljzgA/QR87NngfRHLxl/0HcEFtq4=
+  on:
+    tags: true
+    repo: NZME/fetch-class
