@@ -56,7 +56,7 @@ export default class Fetch extends EventAbstractClass {
             options: options
         })
 
-        uri.query_push(this.options.queryParams)
+        uri.query_push(options.queryParams)
 
         switch (options.method) {
             default:
