@@ -1,6 +1,6 @@
 {
   "name": "fetch-class",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "An ES6 wrapper class for simplified fetch API requests.",
   "main": "dist/fetch-class.js",
   "repository": {

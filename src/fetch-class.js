@@ -30,7 +30,7 @@ export default class Fetch extends EventAbstractClass {
         super()
 
         this.baseUrl        = baseUrl
-        this.defaultOptions = Object.extend({}, OPTIONS, defaultOptions)
+        this.defaultOptions = Object.assign({}, OPTIONS, defaultOptions)
     }
 
     // endregion Constructor
