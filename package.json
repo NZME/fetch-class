@@ -1,6 +1,6 @@
 {
   "name": "fetch-class",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An ES6 wrapper class for simplified fetch API requests.",
   "main": "dist/fetch-class.js",
   "repository": {
@@ -28,7 +28,8 @@
     "url": "https://github.com/NZME/fetch-class/issues"
   },
   "dependencies": {
-    "event-abstract-class": "^1.0.6"
+    "event-abstract-class": "^1.0.6",
+    "youarei": "^1.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
